@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
     <title>Site du chef</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            
+   <!-- navbar -->
+   <!-- juste avant le button je cree un HOME qui ne serra affiché que par les tellephones et tablettes a l'aide des mediaquaries puis je cree une navbar apres mon button avec un deuxiemme home qui lui ne sera affiché uniquement par les pc. Ca me permet d'avoir un menu Home a coté de mon button qui s'affiche pour faire puis beau en version mobile -->
+        <nav class="navbar navbar-expand-lg navbar-light w-100 h-25">
+            <a class="navbar-brand d-flex mt-0 mr-0 border-top border-bottom border-white homenav text-white hometempo " href="#"><h5>HOME</h5></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse containerscss" id="navbarNavAltMarkup">
+            <a class="navbar-brand d-flex mt-0 mr-0 border-top border-bottom border-white homenav text-white hometempo2 " href="#"><h5>HOME</h5></a>
+                <div class="navbar-nav order-1 order-md-0">
+                    <a class="nav-item nav-link active d-flex p-4 align-items-center border-top border-bottom border-white text-white" href="#">
+                        <h5>ABOUT US</h5> <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                        <h5>MENU LIST</h5> <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                        <h5>TEAM</h5> <span class="sr-only">(current)</span>
+                    </a>
+                </div>
+                <div class="mx-5 order-0">
+                  <img src="./public/images/logo.png" class="logo " alt="">
+                </div>
+                
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                        <h5>RESERVATION</h5> <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                        <h5>BLOG</h5> <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                        <h5>TESTIMONIALS</h5> <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                        <h5>CONTACT US</h5> <span class="sr-only">(current)</span>
+                    </a>
+                </div>
+                </div>
+            </div>
         </nav>
+
+
+
+
+
     </header>
 </body>
 <script src="./node_modules/jquery/dist/jquery.js"></script>
 <script src="./node_modules/bootsrap/dist/js/bootstrap.js"></script>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
 </html>
