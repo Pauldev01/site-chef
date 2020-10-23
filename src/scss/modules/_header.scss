@@ -61,13 +61,16 @@ padding: 24px;
         height: 10vh;
          width: 4vw;
     }
-    .containerscss{
-        
-    }
     .hometempo2{
         height: 0;
         width: 0;
         color: transparent;
+        display: none;
+        visibility: hidden;
+    }
+    .logo{
+        height: 0%;
+        width: 0%;
         display: none;
         visibility: hidden;
     }
@@ -77,9 +80,8 @@ padding: 24px;
     .logo{
         height: 0%;
         width: 0%;
-    }
-    .containerscss{
-        
+        display: none;
+        visibility: hidden;
     }
     .hometempo2{
         height: 0;

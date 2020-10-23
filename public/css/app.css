@@ -15844,12 +15844,20 @@ h5 {
     display: none;
     visibility: hidden;
   }
+  .logo {
+    height: 0%;
+    width: 0%;
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .logo {
     height: 0%;
     width: 0%;
+    display: none;
+    visibility: hidden;
   }
   .hometempo2 {
     height: 0;
@@ -15858,6 +15866,31 @@ h5 {
     display: none;
     visibility: hidden;
   }
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.txthead {
+  font-family: "Courgette";
+}
+
+.button1 {
+  padding: 1%;
+  color: white;
+  background-color: red;
+  border-radius: 12px;
+  border: none;
+}
+
+.button2 {
+  padding: 1%;
+  background-color: white;
+  border-radius: 12px;
+  border: none;
 }
 
 @font-face {
