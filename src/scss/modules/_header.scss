@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    background-image: url(../../../public/images/main_bg.jpg);
 }
 header{
     background-image:  linear-gradient(
@@ -7,7 +8,7 @@ header{
         rgba(0, 0, 0, 0.694)
         ),url(../images/banner1.jpg);
     width: 100%;
-    height: 100vh;
+    height: max-content;
     background-size:cover;
     background-repeat:no-repeat;
     background-attachment: fixed;

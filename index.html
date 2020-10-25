@@ -8,103 +8,333 @@
     <title>Site du chef</title>
 </head>
 
-<body>
+<body class="imgbody">
     <header>
-   <!-- navbar -->
-   <!-- juste avant le button je cree un HOME qui ne serra affiché que par les tellephones et tablettes a l'aide des mediaquaries puis je cree une navbar apres mon button avec un deuxiemme home qui lui ne sera affiché uniquement par les pc. Ca me permet d'avoir un menu Home a coté de mon button qui s'affiche pour faire puis beau en version mobile -->
+        <!-- navbar -->
+        <!-- juste avant le button je cree un HOME qui ne serra affiché que par les tellephones et tablettes a l'aide des mediaquaries puis je cree une navbar apres mon button avec un deuxiemme home qui lui ne sera affiché uniquement par les pc. Ca me permet d'avoir un menu Home a coté de mon button qui s'affiche pour faire puis beau en version mobile -->
         <nav class="navbar navbar-expand-lg navbar-light w-100  ">
-            <a class="navbar-brand d-flex mt-0 mr-0 border-top border-bottom border-white homenav text-white hometempo " href="#"><h5>HOME</h5></a>
+            <a class="navbar-brand d-flex mt-0 mr-0 border-top border-bottom border-white homenav text-white hometempo "
+                href="#">
+                <h5>HOME</h5>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon "></span>
-        </button>
-        <div class="collapse navbar-collapse containerscss" id="navbarNavAltMarkup">
-            <a class="navbar-brand d-flex mt-0 mr-0 border-top border-bottom border-white homenav text-white hometempo2 " href="#"><h5>HOME</h5></a>
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse containerscss" id="navbarNavAltMarkup">
+                <a class="navbar-brand d-flex mt-0 mr-0 border-top border-bottom border-white homenav text-white hometempo2 "
+                    href="#">
+                    <h5>HOME</h5>
+                </a>
                 <div class="navbar-nav order-1 order-md-0">
-                    <a class="nav-item nav-link active d-flex p-4 align-items-center border-top border-bottom border-white text-white" href="#">
+                    <a class="nav-item nav-link active d-flex p-4 align-items-center border-top border-bottom border-white text-white"
+                        href="#">
                         <h5>ABOUT US</h5> <span class="sr-only">(current)</span>
                     </a>
-                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad"
+                        href="#">
                         <h5>MENU LIST</h5> <span class="sr-only">(current)</span>
                     </a>
-                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad"
+                        href="#">
                         <h5>TEAM</h5> <span class="sr-only">(current)</span>
                     </a>
                 </div>
                 <div class="mx-5 order-0">
-                  <img src="./public/images/logo.png" class="logo " alt="">
+                    <img src="./public/images/logo.png" class="logo " alt="">
                 </div>
-                
+
                 <div class="navbar-nav ">
-                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad"
+                        href="#">
                         <h5>RESERVATION</h5> <span class="sr-only">(current)</span>
                     </a>
-                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad"
+                        href="#">
                         <h5>BLOG</h5> <span class="sr-only">(current)</span>
                     </a>
-                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad"
+                        href="#">
                         <h5>TESTIMONIALS</h5> <span class="sr-only">(current)</span>
                     </a>
-                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad" href="#">
+                    <a class="nav-item nav-link active d-flex align-items-center border-top border-bottom border-white text-white navitempad"
+                        href="#">
                         <h5>CONTACT US</h5> <span class="sr-only">(current)</span>
                     </a>
                 </div>
-                </div>
+            </div>
             </div>
         </nav>
-
-        <div id="carouselExampleIndicators" class="carousel slide p-5" data-ride="carousel">
+        <!-- carrousel -->
+        <div id="carouselExampleIndicators" class="carousel slide p-5 mt-5 " data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active text-center">
-                <h1 class="txthead text-white">whatever your <span>OCCASION,</span></h1>
-                <h1 class="txthead text-white">
-                    <span class="text-danger txthead">TASTE</span> <span class="txthead text-white">makes</span> 
-                    it one</h1>
-                <h1 class="txthead text-white">
-                    to <span class="txthead text-white">remember!
-                    </span></h1>
-                <div>
-                    <button class="button2">PURCHASE THEME</button>
-                    <button class="button1">LEARN MORE</button>
+            <div class="carousel-inner ">
+                <div class="carousel-item active text-center">
+                    <h1 class="txthead text-white">whatever your <span>OCCASION,</span></h1>
+                    <h1 class="txthead text-white">
+                        <span class="text-danger txthead">TASTE</span> <span class="txthead text-white">makes</span>
+                        it one</h1>
+                    <h1 class="txthead text-white">
+                        to <span class="txthead text-white">remember!
+                        </span></h1>
+                    <div>
+                        <button class="button2">PURCHASE THEME</button>
+                        <button class="button1">LEARN MORE</button>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item text-center">
-                <h1 class="txthead text-white">whatever your <span>OCCASION,</span></h1>
-                <h1 class="txthead text-white">
-                    <span class="text-danger txthead">TASTE</span> <span class="txthead text-white">makes</span> 
-                    it one</h1>
-                <h1 class="txthead text-white">
-                    to <span class="txthead text-white">remember!
-                    </span></h1>
-                <div>
-                    <button class="button2">PURCHASE THEME</button>
-                    <button class="button1">LEARN MORE</button>
+                <div class="carousel-item text-center">
+                    <h1 class="txthead text-white">whatever your <span>OCCASION,</span></h1>
+                    <h1 class="txthead text-white">
+                        <span class="text-danger txthead">TASTE</span> <span class="txthead text-white">makes</span>
+                        it one</h1>
+                    <h1 class="txthead text-white">
+                        to <span class="txthead text-white">remember!
+                        </span></h1>
+                    <div>
+                        <button class="button2">PURCHASE THEME</button>
+                        <button class="button1">LEARN MORE</button>
+                    </div>
                 </div>
-              </div>
-              <div class="carousel-item text-center">
-                <h1 class="txthead text-white">whatever your <span>OCCASION,</span></h1>
-                <h1 class="txthead text-white">
-                    <span class="text-danger txthead">TASTE</span> <span class="txthead text-white">makes</span> 
-                    it one</h1>
-                <h1 class="txthead text-white">
-                    to <span class="txthead text-white">remember!
-                    </span></h1>
-                <div>
-                    <button class="button2">PURCHASE THEME</button>
-                    <button class="button1 bg-danger">LEARN MORE</button>
+                <div class="carousel-item text-center">
+                    <h1 class="txthead text-white">whatever your <span>OCCASION,</span></h1>
+                    <h1 class="txthead text-white">
+                        <span class="text-danger txthead">TASTE</span> <span class="txthead text-white">makes</span>
+                        it one</h1>
+                    <h1 class="txthead text-white">
+                        to <span class="txthead text-white">remember!
+                        </span></h1>
+                    <div>
+                        <button class="button2">PURCHASE THEME</button>
+                        <button class="button1 bg-danger">LEARN MORE</button>
+                    </div>
                 </div>
-              </div>
             </div>
         </div>
 
-
-
+        <div class="wave">
+            <img src="./public/images/bottom_decoration_img.png" alt="">
+        </div>
     </header>
+
+    <section class="bgsec divsection2 containflex">
+
+        <!-- section2 -->
+
+        <div class="ourstory">
+            <div class="colu1"><img src="./public/images/box-left-top.png" alt=""></div>
+            <div class="colu2 d-flex flex-column align-items-center">
+
+                <h1 class="txtsect"> <span class="text-danger">OUR</span> STORY</h1>
+                <img src="./public/images/decoration_line.png" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti id exercitationem fugiat dolorum
+                    ab non esse temporibus, vero praesentium rem unde quibusdam sequi deserunt eveniet nulla saepe
+                    perferendis obcaecati possimus repellat perspiciatis. .</p>
+                <h1 class="txtsect"> <span class="text-danger">OUR</span> MENU LIST</h1>
+                <img src="./public/images/decoration_line.png" alt="">
+            </div>
+
+            <div class="colu3"> <img src="./public/images/box-right-top.png" alt=""></div>
+
+    </section>
+
+    <!-- list -->
+    <section class="bgsec divsectionlist containflex2">
+        <div class="position-relative ourstory">
+
+            <div class="row listrow">
+                <div class="col-4 d-flex flex-column">
+                    <div class="list-group" id="list-tab" role="tablist">
+
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                            href="#list-home" role="tab" aria-controls="home">
+                            <div class="d-flex flex-column align-items-center">
+                                <i class="fas fa-mug-hot mug"></i>
+                                <span class="txtsect">Brekfast</span>
+                            </div>
+                        </a>
+
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                            href="#list-profile" role="tab" aria-controls="profile">
+                            <div class="d-flex flex-column align-items-center">
+                                <i class="fas fa-mug-hot mug"></i>
+                                <span class="txtsect">Brekfast</span>
+                            </div>
+                        </a>
+
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                            href="#list-messages" role="tab" aria-controls="messages">
+                            <div class="d-flex flex-column align-items-center">
+                                <i class="fas fa-mug-hot mug"></i>
+                                <span class="txtsect">Brekfast</span>
+                    </div>
+                    </a>
+
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                        href="#list-settings" role="tab" aria-controls="settings">
+                        <div class="d-flex flex-column align-items-center">
+                            <i class="fas fa-mug-hot mug"></i>
+                            <span class="txtsect">Brekfast</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <div class="col-4">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active d-flex flex-column" id="list-home" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        <div class="d-flex">
+                            <img class="borderrad" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="borderrad" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="borderrad" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="borderrad" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="borderrad" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        ...
+                    </div>
+
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        ...
+                    </div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                        ...
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active d-flex flex-column" id="list-home" role="tabpanel"
+                        aria-labelledby="list-home-list">
+                        <div class="d-flex">
+                            <img class="borderrad img-fluid" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="borderrad img-fluid" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="borderrad" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="borderrad" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <img class="borderrad" src="./public/images/menu_image_1.jpg" alt="">
+                            <div class="d-flex flex-column">
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                        <img src="./public/images/menu_image_1.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <p>Lorem ipsum dolor sit.</p>
+                        <p>Lorem ipsum dolor sit.</p>
+                    </div>
+
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                        ...</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                        ...</div>
+                </div>
+            </div>
+
+
+
+        </div>
+        </div>
+        </div>
+
+        
+    </section>
+            <div class="rowfin1">
+                <div class="rowfin">
+                <img src="./public/images/box-bottom-left.png" alt="">
+                <img src="./public/images/box-bottom_right.png" alt="">
+                </div>
+            </div>
+
+            <div class="rowfin2"></div>
+            
 </body>
 <script src="./node_modules/jquery/dist/jquery.js"></script>
 <script src="./node_modules/bootsrap/dist/js/bootstrap.js"></script>

@@ -6,9 +6,7 @@
         
 }
 }
-.txthead{
-    font-family: "Courgette";
-}
+
 .button1{
 padding: 1%;
 color: white;
@@ -21,4 +19,73 @@ border: none;
     background-color: white;
 border-radius: 12px;
 border: none;
+}
+
+@media screen and (min-width:1024px) {
+    .logo{
+        height: 10vh;
+        width: 4vw;
+    }
+    .containerscss{
+       display: flex;
+       justify-content: center;
+       // width: 100%;
+       // height: 30vh;
+       // align-items: center;
+   }
+   .hometempo{
+       height: 0;
+       width: 0;
+       color: transparent;
+       display: none;
+       visibility: hidden;
+   }
+   .txthead{
+    font-family: "Courgette";
+    font-size: 70px;
+}
+}
+
+@media screen and (min-width:600px) and (max-width:1023px){
+   .logo{
+       height: 10vh;
+        width: 4vw;
+   }
+   .hometempo2{
+       height: 0;
+       width: 0;
+       color: transparent;
+       display: none;
+       visibility: hidden;
+   }
+   .logo{
+       height: 0%;
+       width: 0%;
+       display: none;
+       visibility: hidden;
+   }
+   .txthead{
+    font-family: "Courgette";
+    font-size: 70px;
+}
+}
+
+@media screen and (min-width:320px) and (max-width:599px){
+   .logo{
+       height: 0%;
+       width: 0%;
+       display: none;
+       visibility: hidden;
+   }
+   .hometempo2{
+       height: 0;
+       width: 0;
+       color: transparent;
+       display: none;
+       visibility: hidden;
+   }
+   .txthead{
+    font-family: "Courgette";
+    font-size: 30px;
+}
 }
