@@ -17875,18 +17875,6 @@ readers do not read off random characters that represent icons */
 
 body {
   margin: 0%;
-  background-image: url(../../../public/images/main_bg.jpg);
-}
-
-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.735), rgba(0, 0, 0, 0.694)), url(../images/banner1.jpg);
-  width: 100%;
-  height: max-content;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  position: relative;
 }
 
 .yo {
@@ -17917,6 +17905,16 @@ h5 {
 }
 
 @media screen and (min-width: 1024px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.735), rgba(0, 0, 0, 0.694)), url(../images/banner1.jpg);
+    width: 100%;
+    height: max-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+  }
   .logo {
     height: 10vh;
     width: 4vw;
@@ -17943,6 +17941,16 @@ h5 {
 }
 
 @media screen and (min-width: 600px) and (max-width: 1023px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.735), rgba(0, 0, 0, 0.694)), url(../images/banner1.jpg);
+    width: 100%;
+    height: max-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+  }
   .logo {
     height: 10vh;
     width: 4vw;
@@ -17963,6 +17971,16 @@ h5 {
 }
 
 @media screen and (min-width: 320px) and (max-width: 599px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.735), rgba(0, 0, 0, 0.694)), url(../images/banner1.jpg);
+    width: 109%;
+    height: max-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+  }
   .logo {
     height: 0%;
     width: 0%;
@@ -18244,7 +18262,7 @@ h5 {
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .ourstory {
     width: 95%;
-    height: 23vh;
+    height: 36vh;
     background-color: white;
     justify-content: space-between;
   }
@@ -18343,12 +18361,6 @@ h5 {
   height: 10% !important;
 }
 
-.buttonbook {
-  border-radius: 21px;
-  border: none;
-  padding: 13px;
-}
-
 .containsalad {
   justify-content: center;
   display: flex;
@@ -18357,14 +18369,6 @@ h5 {
 
 .divbook2 {
   width: 100%;
-}
-
-.meresalad {
-  width: 80%;
-  height: 60vh;
-  padding-top: 5vh;
-  display: flex;
-  justify-content: center;
 }
 
 .relative {
@@ -18389,9 +18393,21 @@ h5 {
     background-attachment: fixed;
     background-position: center;
   }
+  .meresalad {
+    width: 80%;
+    height: 60vh;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+  }
   .radius {
     border-radius: 5px;
     padding: 5px;
+  }
+  .buttonbook {
+    border-radius: 21px;
+    border: none;
+    padding: 13px;
   }
   .oursalad {
     width: 80%;
@@ -18488,9 +18504,22 @@ h5 {
     background-attachment: fixed;
     background-position: center;
   }
+  .meresalad {
+    width: 80%;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+  }
   .radius {
     border-radius: 5px;
     padding: 5px;
+  }
+  .buttonbook {
+    border-radius: 21px;
+    border: none;
+    padding: 13px;
+    margin-left: 32vw;
+    margin-bottom: 3vh;
   }
   .oursalad {
     width: 80%;
@@ -18587,6 +18616,19 @@ h5 {
     border-radius: 5px;
     padding: 5px;
   }
+  .buttonbook {
+    border-radius: 21px;
+    border: none;
+    padding: 13px;
+    margin-bottom: 3vh;
+  }
+  .meresalad {
+    width: 80%;
+    height: 60vh;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+  }
   .imgsalad1 {
     border-radius: 3%;
     margin-bottom: 2vh;
@@ -18609,7 +18651,7 @@ h5 {
   }
   .absolute {
     position: absolute;
-    top: 158px;
+    top: 119px;
     left: 12px;
     border-radius: 21px;
     border: none;
@@ -18742,6 +18784,7 @@ h5 {
   background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg");
   width: 100%;
   height: 80vh;
+  position: relative;
 }
 
 .border_btm {
@@ -18759,19 +18802,29 @@ footer {
 
 .btnfin {
   border-radius: 21px;
-  border: none;
+  border: lightgrey solid 1px;
   padding: 5px;
+  margin: 2px;
 }
 
 @media screen and (min-width: 1024px) {
   .bg_insta {
     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/footer_background.jpg");
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    position: relative;
+  }
+  .wave2 {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-repeat: repeat-x;
+    top: 602vh;
+    background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/footer_bottom_decoration_img.png");
   }
   .iconfin {
     font-size: 35px;
