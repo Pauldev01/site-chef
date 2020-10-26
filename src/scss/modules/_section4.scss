@@ -1,23 +1,8 @@
-.bgtesti{
-    background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/testimonials_background.jpg");
-    width: 100%;
-    height: 40vh;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 .margintesti{
     margin-top: 5vh;
 }
 .margintesti2{
     margin-bottom: 5vh;
-}
-.borderrad2{
-    border-radius: 100%;
-    border: solid lightgrey 10px;
-    height: 17vh;
-    width: 10vw;
 }
 .taille{
     width: 80%;
@@ -27,3 +12,68 @@
     border: grey solid 1px;
     border-radius: 2px;
 }
+@media screen and (min-width:1024px) {
+    .bgtesti{
+        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/testimonials_background.jpg");
+        width: 100%;
+        height: 40vh;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .borderrad2{
+        border-radius: 100%;
+        border: solid lightgrey 10px;
+        height: 17vh;
+        width: 10vw;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:1023px){
+    .bgtesti{
+        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/testimonials_background.jpg");
+        width: 100%;
+        height: 61vh;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .borderrad2{
+        border-radius: 100%;
+        border: solid lightgrey 10px;
+        height: 15vh;
+        width: 15vw;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:599px){
+    .bgtesti{
+        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/testimonials_background.jpg");
+        width: 100%;
+        height: 133vh;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .borderrad2{
+        border-radius: 100%;
+        border: solid lightgrey 10px;
+        height: 13vh;
+        width: 27vw;
+    }
+}
+
+
+
+
+// .wave{
+//     position: absolute;
+//     width:100%;
+//     height:10%;
+//     background-repeat: repeat-x;
+//     top: 59vh;
+//     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/bottom_decoration_img.png");
+// }

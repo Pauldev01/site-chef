@@ -1,19 +1,5 @@
 body{
     margin: 0%;
-    background-image: url(../../../public/images/main_bg.jpg);
-}
-header{
-    background-image:  linear-gradient(
-        rgba(0, 0, 0, 0.735), 
-        rgba(0, 0, 0, 0.694)
-        ),url(../images/banner1.jpg);
-    width: 100%;
-    height: max-content;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    position: relative;
 }
 .yo{
     width: 10vw;
@@ -38,6 +24,19 @@ padding: 24px;
 }
 
 @media screen and (min-width:1024px) {
+    header{
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.735), 
+            rgba(0, 0, 0, 0.694)
+            ),url(../images/banner1.jpg);
+        width: 100%;
+        height: max-content;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+    }
      .logo{
          height: 10vh;
          width: 4vw;
@@ -67,6 +66,19 @@ padding: 24px;
 }
 
 @media screen and (min-width:600px) and (max-width:1023px){
+    header{
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.735), 
+            rgba(0, 0, 0, 0.694)
+            ),url(../images/banner1.jpg);
+        width: 100%;
+        height: max-content;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+    }
     .logo{
         height: 10vh;
          width: 4vw;
@@ -84,17 +96,22 @@ padding: 24px;
         display: none;
         visibility: hidden;
     }
-    .wave{
-        position: absolute;
-        width:100%;
-        height:10%;
-        background-repeat: repeat-x;
-        top: 60.5vh;
-        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/bottom_decoration_img.png");
-    }
 }
 
 @media screen and (min-width:320px) and (max-width:599px){
+    header{
+        background-image:  linear-gradient(
+            rgba(0, 0, 0, 0.735), 
+            rgba(0, 0, 0, 0.694)
+            ),url(../images/banner1.jpg);
+        width: 109%;
+        height: max-content;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        position: relative;
+    }
     .logo{
         height: 0%;
         width: 0%;
@@ -107,13 +124,5 @@ padding: 24px;
         color: transparent;
         display: none;
         visibility: hidden;
-    }
-    .wave{
-        position: absolute;
-        width:100%;
-        height:10%;
-        background-repeat: repeat-x;
-        top: 51.5vh;
-        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/bottom_decoration_img.png");
     }
 }
