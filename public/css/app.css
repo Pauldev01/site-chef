@@ -18896,7 +18896,8 @@ footer {
     position: relative;
   }
   .iconfin {
-    font-size: 35px;
+    font-size: 20px;
+    margin-left: 0% !important;
   }
   .winsta {
     height: 100%;
