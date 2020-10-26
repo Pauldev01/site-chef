@@ -18436,6 +18436,7 @@ h5 {
   }
   .imgsalad1 {
     border-radius: 3%;
+    border: solid lightgrey 5px;
     margin-bottom: 2vh;
     background-position: center;
     background-size: cover;
@@ -18443,6 +18444,7 @@ h5 {
   }
   .imgsalad2 {
     border-radius: 3%;
+    border: solid lightgrey 5px;
     margin-bottom: 2vh;
     background-position: center;
     background-size: cover;
@@ -18568,6 +18570,7 @@ h5 {
   }
   .imgsalad1 {
     border-radius: 3%;
+    border: solid lightgrey 5px;
     margin-bottom: 2vh;
     background-position: center;
     background-size: cover;
@@ -18575,6 +18578,7 @@ h5 {
   }
   .imgsalad2 {
     border-radius: 3%;
+    border: solid lightgrey 5px;
     margin-bottom: 2vh;
     background-position: center;
     background-size: cover;
@@ -18662,6 +18666,7 @@ h5 {
   }
   .imgsalad1 {
     border-radius: 3%;
+    border: solid lightgrey 5px;
     margin-bottom: 2vh;
     width: 113%;
     background-position: center;
@@ -18670,6 +18675,7 @@ h5 {
   }
   .imgsalad2 {
     border-radius: 3%;
+    border: solid lightgrey 5px;
     margin-bottom: 2vh;
     width: 113%;
     background-position: center;
@@ -18910,7 +18916,7 @@ footer {
   .bg_insta {
     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/footer_background.jpg");
     width: 109%;
-    height: 247vh;
+    height: 95vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18926,7 +18932,6 @@ footer {
     font-size: 29px;
   }
   .winsta {
-    width: 33%;
     height: 100%;
   }
   .contactdanger {
@@ -18937,6 +18942,9 @@ footer {
   }
   .foot {
     width: 109%;
+  }
+  .marginfooter {
+    margin-left: 5vw;
   }
 }
 
