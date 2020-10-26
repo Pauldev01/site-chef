@@ -18271,7 +18271,7 @@ h5 {
     font-size: 50px;
   }
   .divsection2 {
-    width: 100%;
+    width: 109%;
     height: 50vh;
   }
   .mug {
@@ -18602,7 +18602,7 @@ h5 {
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .chef {
     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/team_background.jpg");
-    width: 100%;
+    width: 109%;
     height: 235vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18703,7 +18703,7 @@ h5 {
   .containbook {
     justify-content: center;
     display: flex;
-    width: 100%;
+    width: 109%;
     margin-top: 24vh;
   }
 }
@@ -18765,7 +18765,7 @@ h5 {
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .bgtesti {
     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/testimonials_background.jpg");
-    width: 100%;
+    width: 109%;
     height: 133vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18778,13 +18778,6 @@ h5 {
     height: 13vh;
     width: 27vw;
   }
-}
-
-.bg_contact {
-  background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg");
-  width: 100%;
-  height: 80vh;
-  position: relative;
 }
 
 .border_btm {
@@ -18816,6 +18809,12 @@ footer {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    position: relative;
+  }
+  .bg_contact {
+    background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg");
+    width: 100%;
+    height: 80vh;
     position: relative;
   }
   .wave2 {
@@ -18852,6 +18851,12 @@ footer {
     background-attachment: fixed;
     background-position: center;
   }
+  .bg_contact {
+    background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg");
+    width: 100%;
+    height: 80vh;
+    position: relative;
+  }
   .iconfin {
     font-size: 35px;
   }
@@ -18871,12 +18876,18 @@ footer {
 @media screen and (min-width: 320px) and (max-width: 599px) {
   .bg_insta {
     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/footer_background.jpg");
-    width: 100%;
+    width: 109%;
     height: 247vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+  }
+  .bg_contact {
+    background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg");
+    width: 109%;
+    height: 80vh;
+    position: relative;
   }
   .iconfin {
     font-size: 29px;
