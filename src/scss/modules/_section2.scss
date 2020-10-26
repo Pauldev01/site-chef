@@ -31,8 +31,8 @@
 }
 .list-group-item.active {
     background-color: white !important;
-    color: red !important;
-    border-right-color: red !important;
+    color:rgb(231, 64, 64) !important;
+    border-right-color: rgb(231, 64, 64) !important;
     border-color: white;
 }
 
@@ -58,7 +58,6 @@
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        margin-top: 5vh;
         }
         .divsection2{
             width: 100%;
@@ -85,6 +84,13 @@
         height: 17vh;
         width: 12vw;
     }
+    .the25{
+    height: 3vh;
+    width: 4vw;
+    margin-top: 6vh;
+    background-color: lightgrey;
+    align-items: center;
+    }
     .displayflex{
         display: flex;
     }
@@ -105,7 +111,7 @@
 @media screen and (min-width:600px) and (max-width:1023px){
     .ourstory{
         width: 80%;
-        background-color: white;
+        // background-color: white;
         display: flex;
         justify-content: center;
     }
@@ -117,11 +123,10 @@
         height: 50vh;
     }
     .divsectionlist{
-        height: 127vh;
+        height: 149vh;
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        margin-top: 5vh;
         }
     .txtsect{
         font-family: "Courgette";
@@ -149,7 +154,7 @@
     .borderrad{
         border-radius: 100%;
         border: solid lightgrey 10px;
-        height: 17vh;
+        height: 12vh;
         width: 12vw;
     }
     .displayflex{
@@ -157,7 +162,7 @@
     }
     .rowfin{
         width: 80%;
-        display: flex;
+        display: none;
         justify-content: space-between;
         background-color: white;
     }
@@ -191,10 +196,9 @@
         display: none;
     }
     .divsectionlist{
-        height: 228vh;
+        height: 234vh;
         display: flex;
         justify-content: center;
-        margin-top: 1vh;
         background: white;
         }
     .colu1{

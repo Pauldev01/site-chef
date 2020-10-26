@@ -18121,8 +18121,8 @@ h5 {
 
 .list-group-item.active {
   background-color: white !important;
-  color: red !important;
-  border-right-color: red !important;
+  color: #e74040 !important;
+  border-right-color: #e74040 !important;
   border-color: white;
 }
 
@@ -18148,7 +18148,6 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 5vh;
   }
   .divsection2 {
     width: 100%;
@@ -18175,6 +18174,13 @@ h5 {
     height: 17vh;
     width: 12vw;
   }
+  .the25 {
+    height: 3vh;
+    width: 4vw;
+    margin-top: 6vh;
+    background-color: lightgrey;
+    align-items: center;
+  }
   .displayflex {
     display: flex;
   }
@@ -18195,7 +18201,6 @@ h5 {
 @media screen and (min-width: 600px) and (max-width: 1023px) {
   .ourstory {
     width: 80%;
-    background-color: white;
     display: flex;
     justify-content: center;
   }
@@ -18207,11 +18212,10 @@ h5 {
     height: 50vh;
   }
   .divsectionlist {
-    height: 127vh;
+    height: 149vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 5vh;
   }
   .txtsect {
     font-family: "Courgette";
@@ -18239,7 +18243,7 @@ h5 {
   .borderrad {
     border-radius: 100%;
     border: solid lightgrey 10px;
-    height: 17vh;
+    height: 12vh;
     width: 12vw;
   }
   .displayflex {
@@ -18247,7 +18251,7 @@ h5 {
   }
   .rowfin {
     width: 80%;
-    display: flex;
+    display: none;
     justify-content: space-between;
     background-color: white;
   }
@@ -18281,10 +18285,9 @@ h5 {
     display: none;
   }
   .divsectionlist {
-    height: 228vh;
+    height: 234vh;
     display: flex;
     justify-content: center;
-    margin-top: 1vh;
     background: white;
   }
   .colu1 {
@@ -18353,6 +18356,12 @@ h5 {
   height: 25vh;
 }
 
+.rowfin3 {
+  height: 5vh;
+  width: 100%;
+  background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg");
+}
+
 .row {
   margin-right: 0% !important;
 }
@@ -18409,12 +18418,16 @@ h5 {
     border: none;
     padding: 13px;
   }
+  .buttonbook2 {
+    border-radius: 21px;
+    border: none;
+    padding: 13px;
+  }
   .oursalad {
     width: 80%;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 5vh;
   }
   .colu2salad {
     width: 50%;
@@ -18478,7 +18491,6 @@ h5 {
     background-color: white;
     display: flex;
     justify-content: center;
-    margin-bottom: 5vh;
   }
   .rowbook {
     width: 80%;
@@ -18517,9 +18529,19 @@ h5 {
   .buttonbook {
     border-radius: 21px;
     border: none;
-    padding: 13px;
-    margin-left: 32vw;
-    margin-bottom: 3vh;
+    padding: 10px;
+    margin-left: 1vw;
+    /* margin-bottom: 1vh; */
+    margin-top: 1vh;
+  }
+  .buttonbook2 {
+    border-radius: 21px;
+    border: none;
+    padding: 10px;
+    margin-left: 1vw;
+    /* margin-bottom: 1vh; */
+    margin-top: 1vh;
+    margin-left: 24vh !important;
   }
   .oursalad {
     width: 80%;
@@ -18527,6 +18549,9 @@ h5 {
     display: flex;
     justify-content: space-between;
     margin: 0%;
+  }
+  .txt_centermd {
+    text-align: center;
   }
   .colu2salad {
     width: 50%;
@@ -18617,6 +18642,12 @@ h5 {
     padding: 5px;
   }
   .buttonbook {
+    border-radius: 21px;
+    border: none;
+    padding: 13px;
+    margin-bottom: 3vh;
+  }
+  .buttonbook2 {
     border-radius: 21px;
     border: none;
     padding: 13px;
@@ -18822,16 +18853,17 @@ footer {
     width: 100%;
     height: 10%;
     background-repeat: repeat-x;
-    top: 602vh;
+    top: 587vh;
     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/footer_bottom_decoration_img.png");
   }
   .iconfin {
     font-size: 35px;
   }
   .winsta {
-    width: 33%;
     height: 100%;
     flex-direction: column;
+    width: 28%;
+    margin-left: 10vw;
   }
   .contactdanger {
     border-radius: 5px;
@@ -18861,9 +18893,10 @@ footer {
     font-size: 35px;
   }
   .winsta {
-    width: 33%;
     height: 100%;
     flex-direction: column;
+    width: 28%;
+    margin-left: 10vw;
   }
   .contactdanger {
     border-radius: 5px;
@@ -18901,6 +18934,9 @@ footer {
     padding: 55px;
     height: 50vh;
     width: 94vw;
+  }
+  .foot {
+    width: 109%;
   }
 }
 

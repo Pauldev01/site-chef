@@ -22,7 +22,11 @@ height: 20vh;
     width: 100%;
     height: 25vh;
 }
-
+.rowfin3{
+    height: 5vh;
+     width: 100%;
+     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg")
+ }
 .row{
     margin-right: 0% !important;
 }
@@ -79,12 +83,16 @@ position: relative;
         border: none;
         padding: 13px;
     }
+    .buttonbook2{
+        border-radius: 21px;
+        border: none;
+        padding: 13px;
+    }
     .oursalad{
         width: 80%;
         background-color: white;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 5vh;
     }
     .colu2salad{
         width: 50%;
@@ -155,7 +163,7 @@ position: relative;
         background-color: white;
         display: flex;
         justify-content: center;
-        margin-bottom: 5vh;
+       
     }
     
     .rowbook{
@@ -194,10 +202,20 @@ position: relative;
     }
     .buttonbook{
         border-radius: 21px;
-        border: none;
-        padding: 13px;
-        margin-left: 32vw;
-        margin-bottom: 3vh;
+    border: none;
+    padding: 10px;
+    margin-left: 1vw;
+    /* margin-bottom: 1vh; */
+    margin-top: 1vh;
+    }
+    .buttonbook2{
+        border-radius: 21px;
+    border: none;
+    padding: 10px;
+    margin-left: 1vw;
+    /* margin-bottom: 1vh; */
+    margin-top: 1vh;
+    margin-left: 24vh !important;
     }
     .oursalad{
         width: 80%;
@@ -205,6 +223,9 @@ position: relative;
         display: flex;
         justify-content: space-between;
         margin:0%;
+    }
+    .txt_centermd{
+        text-align: center;
     }
     .colu2salad{
         width: 50%;
@@ -297,12 +318,19 @@ position: relative;
     .sec_book{
         height: 85vh;
     }
+
     .radius{
         border-radius: 5px;
         padding : 5px;
         // width: 39vw;
     }
     .buttonbook{
+        border-radius: 21px;
+        border: none;
+        padding: 13px;
+        margin-bottom: 3vh;
+    }
+    .buttonbook2{
         border-radius: 21px;
         border: none;
         padding: 13px;
