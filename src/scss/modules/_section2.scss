@@ -6,10 +6,7 @@
 .bgsec{
     background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg");
 }
-.divsection2{
-    width: 100%;
-    height: 50vh;
-}
+
 .containflex{
     display: flex;
     justify-content: center;
@@ -20,20 +17,11 @@
     justify-content: center;
     align-items: flex-start;
 }
-
-
 .boxlefttop{
     display: flex;
     width: 10vw;
     height: 10vh;
     background: url(/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/box-left-top.png);
-}
-
-.divsectionlist{
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: flex-start
 }
 .listrow{
     height: 100vh;
@@ -47,24 +35,7 @@ align-items: flex-start
     border-right-color: red !important;
     border-color: white;
 }
-.borderrad{
-    border-radius: 100%;
-    border: solid lightgrey 10px;
-    height: 17vh;
-    width: 12vw;
-}
-.rowfin1{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg")
-}
-.rowfin{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-}
+
 .rowfin2{
    height: 5vh;
     width: 100%;
@@ -82,6 +53,17 @@ align-items: flex-start
         font-family: "Courgette";
         font-size: 50px;
     }
+    .divsectionlist{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 5vh;
+        }
+        .divsection2{
+            width: 100%;
+            height: 50vh;
+        }
     .colu1{
         justify-content: flex-start;
     }
@@ -97,55 +79,131 @@ align-items: flex-start
     .colu3{
         justify-content: flex-end;
     }
-    
+    .borderrad{
+        border-radius: 100%;
+        border: solid lightgrey 10px;
+        height: 17vh;
+        width: 12vw;
+    }
+    .displayflex{
+        display: flex;
+    }
+    .rowfin{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .rowfin1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg")
+    }
 }
 
 @media screen and (min-width:600px) and (max-width:1023px){
     .ourstory{
-        width: 95%;
-        height: 40vh;
+        width: 80%;
         background-color: white;
         display: flex;
-        justify-content: space-between;
-    }
-    
-    .colu1{
-        justify-content: flex-start;
-        display: none;
-        visibility: hidden;
-    }
-    .colu2{
-        height: 30vh;
-        display: flex;
         justify-content: center;
-        align-items: center;
     }
     .txtsect{
         font-family: "Courgette";
-        font-size: 30px;
     }
-    .colu2>p{
-        text-align: center;
-        font-size: 10px;
+    .divsection2{
+        width: 100%;
+        height: 50vh;
+    }
+    .divsectionlist{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 5vh;
+        }
+    .txtsect{
+        font-family: "Courgette";
+        font-size: 50px;
+    }
+    .colu1{
+        justify-content: flex-start;
+        visibility: hidden;
+        display: none;
     }
     .colu3{
         justify-content: flex-end;
-        display: none;
         visibility: hidden;
+        display: none;
+    }
+    .colu2{
+        width: 50%;
+        padding-top: 5vh;
+        justify-content: center;
+    }
+    .colu2>p{
+        text-align: center;
+        margin-bottom: 7vh;
+    }
+    .borderrad{
+        border-radius: 100%;
+        border: solid lightgrey 10px;
+        height: 17vh;
+        width: 12vw;
+    }
+    .displayflex{
+        display: flex;
+    }
+    .rowfin{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+    }
+    .rowfin1{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/main_bg.jpg")
     }
 }
 
 @media screen and (min-width:320px) and (max-width:599px){
     .ourstory{
         width: 95%;
-        height: 40vh;
+        height: 23vh;
         background-color: white;
-        display: flex;
         justify-content: space-between;
     }
-    
+    .txtsect{
+        font-family: "Courgette";
+        font-size: 50px;
+    }
+    .divsection2{
+        width: 100%;
+        height: 50vh;
+    }
+    .mug{
+        font-size: 70px;
+    }
+    .mob{
+        display: none;
+    }
+    .divsectionlist{
+        height: 228vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 1vh;
+        background: white;
+        }
     .colu1{
         justify-content: flex-start;
+        visibility: hidden;
+        display: none;
+    }
+    .colu3{
+        justify-content: flex-end;
         visibility: hidden;
         display: none;
     }
@@ -163,9 +221,18 @@ align-items: flex-start
         text-align: center;
         font-size: 10px;
     }
-    .colu3{
-        justify-content: flex-end;
-        visibility: hidden;
-        display: none;
+    .borderrad{
+        border-radius: 100%;
+        border: solid lightgrey 10px;
+        height: 17vh;
+        // width: 12vw;
     }
+    .rowfin{
+        display: none;
+        visibility: hidden;
+    }
+    .rowfin1{
+        display: none;
+        visibility: hidden;
+}
 }

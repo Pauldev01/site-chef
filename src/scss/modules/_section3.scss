@@ -1,12 +1,3 @@
-.chef{
-    background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/team_background.jpg");
-    width: 100%;
-    height: 70vh;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
 .txtsect2{
     font-family: "Courgette";
     font-size: 50px;
@@ -35,45 +26,8 @@ height: 20vh;
 .row{
     margin-right: 0% !important;
 }
-.containbook{
-    justify-content: center;
-    display: flex;
-    width: 100%;
-}
-.rowbook{
-    width: 80%;
-    height: 60vh;
-    justify-content: center;
-    display: flex;
-    padding-top: 5vh;
-}
-.imgbook{
-    border-radius: 3%;
-    padding-top: 5vh;
-    width: 67%;
-    height: 96%;
-    // background-attachment: fixed;
-    background-position: center;
-    background-size:cover;
-    background-image: url(/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/book_table_bg.jpg);
-}
-.bookchild1{
-height: 10% !important;
-}
-.bookchild2{
-height: 60% !important;
-width:60%;
-align-items: unset !important;
-margin-left: 2vw !important;
-margin-top: 6vh;
-}
 .bookchild3{
 height: 10% !important;
-}
-.yo{
-    border-radius: 5px;
-    height: 1vh;
-    width: 5vw
 }
 .radius{
     border-radius: 5px;
@@ -95,6 +49,7 @@ height: 10% !important;
     background-color: white;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5vh;
 }
 
 .divbook2{
@@ -152,28 +107,176 @@ padding: 5px;
 }
 
 @media screen and (min-width:1024px) {
+    .chef{
+        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/team_background.jpg");
+        width: 100%;
+        height: 70vh;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .yo{
+        border-radius: 5px;
+        height: 1vh;
+        width: 5vw
+    }
+    .bookchild1{
+        height: 10% !important;
+        }
+        .bookchild2{
+            height: 60% !important;
+            width:60%;
+            align-items: unset !important;
+            margin-left: 2vw !important;
+            margin-top: 6vh;
+            }
     .imgblog1{
         padding-left: 41px;
     }
     .imgblog2{
         padding-left: 41px
     }
+    .imgbook{
+        border-radius: 3%;
+        padding-top: 5vh;
+        width: 67%;
+        height: 96%;
+        // background-attachment: fixed;
+        background-position: center;
+        background-size:cover;
+        background-image: url(/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/book_table_bg.jpg);
+    }
+    .rowbook{
+        width: 80%;
+        height: 60vh;
+        justify-content: center;
+        display: flex;
+        padding-top: 5vh;
+    }
+    .containbook{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:600px) and (max-width:1023px){
+    .chef{
+        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/team_background.jpg");
+        width: 100%;
+        height: 70vh;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .yo{
+        border-radius: 5px;
+        height: 1vh;
+        width: 5vw
+    }
+    .bookchild1{
+        height: 10% !important;
+        }
+        .bookchild2{
+            height: 60% !important;
+            width:60%;
+            align-items: unset !important;
+            margin-left: 2vw !important;
+            margin-top: 6vh;
+            }
     .imgblog1{
         padding-left: 41px
     }
     .imgblog2{
         padding-left: 41px
+    }
+    .imgbook{
+        border-radius: 3%;
+        padding-top: 5vh;
+        width: 67%;
+        height: 96%;
+        // background-attachment: fixed;
+        background-position: center;
+        background-size:cover;
+        background-image: url(/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/book_table_bg.jpg);
+    }
+    .rowbook{
+        width: 80%;
+        height: 60vh;
+        justify-content: center;
+        display: flex;
+        padding-top: 5vh;
+    }
+    .containbook{
+        justify-content: center;
+        display: flex;
+        width: 100%;
     }
 }
 
 @media screen and (min-width:320px) and (max-width:599px){
+    .chef{
+        background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/team_background.jpg");
+        width: 100%;
+        height: 235vh;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .yo{
+    width: 50%;
+    margin: -5vh;
+    display: flex;
+    border-radius: 5px;
+    height: 1vh;
+    width: 5vw;
+    flex-wrap: wrap;
+    padding: 2vh;
+    }
+    .bookchild1{
+        height: 10% !important;
+        margin: 0 10vw;
+        }
+
+    .bookchild2{
+    flex-direction: column;
+    margin: 2vh;
+    height: 70% !important;
+    width: 99%;
+    align-items: unset !important;
+    margin-left: 26vw !important;
+    margin-top: 6vh;
+        }
+        
     .imgblog1{
         padding-left: 0;
     }
     .imgblog2{
         padding-left: 0;
+    }
+    .imgbook{
+        border-radius: 3%;
+        padding-top: 5vh;
+        width: 100%;
+        height: 140%;
+        // background-attachment: fixed;
+        background-position: center;
+        background-size:cover;
+        background-image: url(/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/book_table_bg.jpg);
+    }
+    .rowbook{
+        width: 95%;
+        height: 60vh;
+        justify-content: center;
+        display: flex;
+    }
+    .containbook{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        margin-top: 24vh;
     }
 }

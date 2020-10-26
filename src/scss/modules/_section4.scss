@@ -1,0 +1,29 @@
+.bgtesti{
+    background-image: url("/home/molengeek/Bureau/coding-school/15_SITE_DU_CHEF/site_du_chef/public/images/testimonials_background.jpg");
+    width: 100%;
+    height: 40vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.margintesti{
+    margin-top: 5vh;
+}
+.margintesti2{
+    margin-bottom: 5vh;
+}
+.borderrad2{
+    border-radius: 100%;
+    border: solid lightgrey 10px;
+    height: 17vh;
+    width: 10vw;
+}
+.taille{
+    width: 80%;
+    align-items: center;
+}
+.bord{
+    border: grey solid 1px;
+    border-radius: 2px;
+}
